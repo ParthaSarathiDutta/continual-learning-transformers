@@ -1,16 +1,16 @@
-# 🧠 Continual Learning with Transformers (EWC + Replay)
+# Continual Learning with Transformers (EWC + Replay)
 
 This project demonstrates how to perform continual learning on a sequence of NLP classification tasks using RoBERTa. It implements and compares three strategies:
 
-- ✅ Baseline (no mitigation for forgetting)
-- ✅ EWC (Elastic Weight Consolidation)
-- ✅ Replay Buffer
+- Baseline (no mitigation for forgetting)
+- EWC (Elastic Weight Consolidation)
+- Replay Buffer
 
 It is built with Hugging Face Transformers and Datasets, and designed to be extensible, reproducible, and insightful for research and hiring demonstrations.
 
 ---
 
-## 🔍 What is Continual Learning?
+## What is Continual Learning?
 
 Continual learning is the ability to train a model on new tasks without forgetting previous ones. Standard neural networks suffer from **catastrophic forgetting**, where performance on older tasks drops as new tasks are learned.
 
@@ -23,19 +23,19 @@ This repo tackles that with two popular strategies:
 
 ---
 
-## 🗂️ Task Setup
+## Task Setup
 
 We train the model on a sequence of text classification tasks:
 
-1. 🎭 IMDb → Sentiment classification (positive/negative)
-2. 📰 AG News → Topic classification (e.g., World, Sports, Business)
-3. 🎯 SNIPS → Intent classification (e.g., play music, get weather)
+1. IMDb → Sentiment classification (positive/negative)
+2. AG News → Topic classification (e.g., World, Sports, Business)
+3. SNIPS → Intent classification (e.g., play music, get weather)
 
 These tasks represent diverse real-world NLP challenges.
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 continual-learning-transformers/
@@ -56,7 +56,7 @@ continual-learning-transformers/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 Install dependencies:
 ```bash
@@ -73,13 +73,13 @@ python train_replay.py
 
 ---
 
-## 📊 Results and Evaluation
+## Results and Evaluation
 
 Each script prints task-wise accuracy. You can easily add evaluation plots in the `plots/` folder (coming soon).
 
 ---
 
-## 📚 Data Notes
+## Data Notes
 
 You can either:
 - Use the small CSV files in /data/ for quick tests
@@ -92,23 +92,23 @@ ag_news = load_dataset("ag_news", split="train")
 
 ---
 
-## 🧠 Why This Project Matters
+## Why This Project Matters
 
 | Signal | Value |
 |--------|-------|
-| 🔄 Continual Learning | Shows your awareness of lifelong learning research |
-| 🎯 Task Diversity | Covers classification, topic detection, and user intent |
-| 📈 Research Skills | Demonstrates regularization, memory replay, and benchmarks |
-| 🧪 Extension Ready | You can plug in other methods like LwF, GEM, or adapters |
+| Continual Learning | Shows your awareness of lifelong learning research |
+| Task Diversity | Covers classification, topic detection, and user intent |
+| Research Skills | Demonstrates regularization, memory replay, and benchmarks |
+| Extension Ready | You can plug in other methods like LwF, GEM, or adapters |
 
 ---
 
-## 🤝 Credits
+## Credits
 
 This project was generated with guidance from ChatGPT and custom code to reflect current AI research directions in continual learning.
 
 ---
 
-## 📜 License
+## License
 
 MIT License. Use freely with attribution.
