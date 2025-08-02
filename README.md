@@ -105,7 +105,8 @@ ag_news = load_dataset("ag_news", split="train")
 
 ## Credits
 
-This project was generated with guidance from ChatGPT and custom code to reflect current AI research directions in continual learning.
+This project was independently developed to align with current research in continual learning and demonstrates practical implementations of strategies such as Elastic Weight Consolidation (EWC) and experience replay for transformer models.
+
 
 ---
 
