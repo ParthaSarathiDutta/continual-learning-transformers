@@ -74,7 +74,7 @@ python train_replay.py
 
 ## Results and Evaluation
 
-Each script prints task-wise accuracy. You can easily add evaluation plots in the `plots/` folder (coming soon).
+Each script prints task-wise accuracy. You can add evaluation plots in the `plots/` folder (coming soon).
 
 ---
 
@@ -89,16 +89,6 @@ from datasets import load_dataset
 ag_news = load_dataset("ag_news", split="train")
 ```
 
----
-
-## Why This Project Matters
-
-| Signal | Value |
-|--------|-------|
-| Continual Learning | Shows your awareness of lifelong learning research |
-| Task Diversity | Covers classification, topic detection, and user intent |
-| Research Skills | Demonstrates regularization, memory replay, and benchmarks |
-| Extension Ready | You can plug in other methods like LwF, GEM, or adapters |
 
 ---
 
