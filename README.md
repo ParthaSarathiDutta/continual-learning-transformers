@@ -6,7 +6,6 @@ This project demonstrates how to perform continual learning on a sequence of NLP
 - EWC (Elastic Weight Consolidation)
 - Replay Buffer
 
-It is built with Hugging Face Transformers and Datasets, and designed to be extensible, reproducible, and insightful for research and hiring demonstrations.
 
 ---
 
